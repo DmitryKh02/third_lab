@@ -1,18 +1,4 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+My program calculates the speed of performing an operation on two lists: Linked and Array.
+Operations were considered: add, get, delete, sort and clear. In the first three of them, options with the beginning of the list, with the middle and with the end were considered.
+The number of items in the list is determined by the array, which you can change, but it is not recommended to set values more than 100,000!!!
+The nanoTime() function was chosen as the time counting function because of its greater accuracy than currenttimemillis(), Instant and Duration. The execution time of the function was calculated in nanoseconds!!! (If that 1 millisecond = 1000000 nanoseconds)
